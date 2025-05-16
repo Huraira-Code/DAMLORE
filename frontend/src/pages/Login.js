@@ -11,7 +11,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post("http://localhost:5000/api/auth/login", {
+      const response = await axios.post("https://damlore-git-main-hurairashaids-projects.vercel.app/api/auth/login", {
         email,
         password,
       });

@@ -25,7 +25,7 @@ const Signup = () => {
     }
 
     try {
-      await axios.post("http://localhost:5000/api/auth/signup", {
+      await axios.post("https://damlore-git-main-hurairashaids-projects.vercel.app/api/auth/signup", {
         fullName: formData.fullName,
         email: formData.email,
         password: formData.password,
